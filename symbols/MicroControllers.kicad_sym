@@ -1,0 +1,3210 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "STM32H563VIT6"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 4 5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 3 -49 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 3 -49 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 3 -49 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 3 -49 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "STM32H563VIT6_1_1"
+			(rectangle
+				(start 3 2)
+				(end 9 -47)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3)
+				(name "PA0"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 3)
+				(name "PA1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3)
+				(name "PA2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 3)
+				(name "PA3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 3)
+				(name "PA4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 3)
+				(name "PA5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 3)
+				(name "PA6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -21 0)
+				(length 3)
+				(name "PA7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -24 0)
+				(length 3)
+				(name "PA8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "67"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27 0)
+				(length 3)
+				(name "PA9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "68"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 3)
+				(name "PA10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "69"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33 0)
+				(length 3)
+				(name "PA11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "70"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -36 0)
+				(length 3)
+				(name "PA12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "71"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -39 0)
+				(length 3)
+				(name "PA13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "72"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42 0)
+				(length 3)
+				(name "PA14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "76"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 3)
+				(name "PA15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32H563VIT6_2_1"
+			(rectangle
+				(start 3 2)
+				(end 9 -44)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3)
+				(name "PB0"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 3)
+				(name "PB1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3)
+				(name "PB2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 3)
+				(name "PB10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33 0)
+				(length 3)
+				(name "PB12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -36 0)
+				(length 3)
+				(name "PB13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -39 0)
+				(length 3)
+				(name "PB14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42 0)
+				(length 3)
+				(name "PB15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 3)
+				(name "PB3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "89"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 3)
+				(name "PB4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "90"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 3)
+				(name "PB5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "91"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 3)
+				(name "PB6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "92"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -21 0)
+				(length 3)
+				(name "PB7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "93"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -24 0)
+				(length 3)
+				(name "PB8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "95"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27 0)
+				(length 3)
+				(name "PB9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "96"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32H563VIT6_3_1"
+			(rectangle
+				(start 3 2)
+				(end 9 -41)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3)
+				(name "PC0"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 3)
+				(name "PC1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3)
+				(name "PC2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 3)
+				(name "PC3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 3)
+				(name "PC4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 3)
+				(name "PC5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 3)
+				(name "PC6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -21 0)
+				(length 3)
+				(name "PC7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -24 0)
+				(length 3)
+				(name "PC8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27 0)
+				(length 3)
+				(name "PC9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "66"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -39 0)
+				(length 3)
+				(name "PC13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 3)
+				(name "PC10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "78"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33 0)
+				(length 3)
+				(name "PC11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "79"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -36 0)
+				(length 3)
+				(name "PC12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "80"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32H563VIT6_4_1"
+			(rectangle
+				(start 3 2)
+				(end 9 -47)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -24 0)
+				(length 3)
+				(name "PD8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27 0)
+				(length 3)
+				(name "PD9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 3)
+				(name "PD10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33 0)
+				(length 3)
+				(name "PD11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -36 0)
+				(length 3)
+				(name "PD12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -39 0)
+				(length 3)
+				(name "PD13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42 0)
+				(length 3)
+				(name "PD14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 3)
+				(name "PD15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3)
+				(name "PD0"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "81"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 3)
+				(name "PD1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "82"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3)
+				(name "PD2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "83"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 3)
+				(name "PD3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "84"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 3)
+				(name "PD4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "85"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 3)
+				(name "PD5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "86"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 3)
+				(name "PD6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "87"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -21 0)
+				(length 3)
+				(name "PD7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "88"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32H563VIT6_5_1"
+			(rectangle
+				(start 3 2)
+				(end 9 -44)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 3)
+				(name "PE2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3)
+				(name "PE3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 3)
+				(name "PE4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 3)
+				(name "PE7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -21 0)
+				(length 3)
+				(name "PE8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 3)
+				(name "PE5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -24 0)
+				(length 3)
+				(name "PE9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27 0)
+				(length 3)
+				(name "PE10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 3)
+				(name "PE11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33 0)
+				(length 3)
+				(name "PE12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -36 0)
+				(length 3)
+				(name "PE13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -39 0)
+				(length 3)
+				(name "PE14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42 0)
+				(length 3)
+				(name "PE15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 3)
+				(name "PE6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3)
+				(name "PE0"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "97"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32H563VIT6_6_1"
+			(rectangle
+				(start 3 3)
+				(end 60 -36)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 57 -39 90)
+				(length 3)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57 6 270)
+				(length 3)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "100"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 54 6 270)
+				(length 3)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3)
+				(name "PH0-OSC_IN"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3)
+				(name "PH1-OSC_OUT"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 63 -9 180)
+				(length 3)
+				(name "NRST"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 42 -39 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33 0)
+				(length 3)
+				(name "VREF-"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 3)
+				(name "VREF+"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 42 6 270)
+				(length 3)
+				(name "VDDA"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 51 -39 90)
+				(length 3)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 51 6 270)
+				(length 3)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 63 -23 180)
+				(length 3)
+				(name "VCAP"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 54 -39 90)
+				(length 3)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 45 6 270)
+				(length 3)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30 6 270)
+				(length 3)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 36 6 270)
+				(length 3)
+				(name "VDDUSB"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "73"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 48 -39 90)
+				(length 3)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "74"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 48 6 270)
+				(length 3)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "75"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 3)
+				(name "PC14-OSC32_IN"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -21 0)
+				(length 3)
+				(name "PC15-OSC32_OUT"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 63 -13 180)
+				(length 3)
+				(name "BOOT0"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "94"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 63 -20 180)
+				(length 3)
+				(name "VCAP"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "98"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 45 -39 90)
+				(length 3)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "99"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "STM32L476RGT6"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 5 7 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STM32L476RGT6"
+			(at 5 4 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at -30.16 -40.92 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -30.16 -40.92 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(symbol "STM32L476RGT6_1_1"
+			(rectangle
+				(start 5 3)
+				(end 43 -27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -22 0)
+				(length 5)
+				(name "PC14-OSC32_IN(PC14)"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -16 0)
+				(length 5)
+				(name "PC15-OSC32_OUT(PC15)"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48 -12 180)
+				(length 5)
+				(name "PA13(JTMS-SWDIO)"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48 -9 180)
+				(length 5)
+				(name "PA14(JTCK-SWCLK)"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -9 0)
+				(length 5)
+				(name "PH0-OSC_IN(PH0)"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48 -6 180)
+				(length 5)
+				(name "PA15(JTDI)"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48 -3 180)
+				(length 5)
+				(name "PB3(JTDO-TRACESWO)"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48 0 180)
+				(length 5)
+				(name "PB4(NJTRST)"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -3 0)
+				(length 5)
+				(name "PH1-OSC_OUT(PH1)"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 48 -24 180)
+				(length 5)
+				(name "BOOT0"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 48 -19 180)
+				(length 5)
+				(name "NRST"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32L476RGT6_2_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 27.94 -17.78)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 5)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -8 0)
+				(length 5)
+				(name "VSSA/VREF-"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5 0)
+				(length 5)
+				(name "VDDA/VREF+"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11 -23 90)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 33 0 180)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15 -23 90)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 33 -3 180)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 19 -23 90)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 33 -10 180)
+				(length 5)
+				(name "VDDUSB"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 23 -23 90)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 33 -6 180)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32L476RGT6_3_1"
+			(rectangle
+				(start 5 2)
+				(end 12 -38)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at 0 0 0)
+				(length 5)
+				(name "PA0"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -3 0)
+				(length 5)
+				(name "PA1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -6 0)
+				(length 5)
+				(name "PA2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -9 0)
+				(length 5)
+				(name "PA3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -12 0)
+				(length 5)
+				(name "PA4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -15 0)
+				(length 5)
+				(name "PA5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -18 0)
+				(length 5)
+				(name "PA6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -21 0)
+				(length 5)
+				(name "PA7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -24 0)
+				(length 5)
+				(name "PA8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -27 0)
+				(length 5)
+				(name "PA9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -30 0)
+				(length 5)
+				(name "PA10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -33 0)
+				(length 5)
+				(name "PA11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -36 0)
+				(length 5)
+				(name "PA12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32L476RGT6_4_1"
+			(rectangle
+				(start 5 2)
+				(end 16 -48)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 16 -48)
+				(end 16 -48)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -6 180)
+				(length 5)
+				(name "PC2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -9 180)
+				(length 5)
+				(name "PC3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -39 180)
+				(length 5)
+				(name "PC13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -12 180)
+				(length 5)
+				(name "PC4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -15 180)
+				(length 5)
+				(name "PC5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 0 0)
+				(length 5)
+				(name "PB0"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -3 0)
+				(length 5)
+				(name "PB1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -6 0)
+				(length 5.08)
+				(name "PB2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -30 0)
+				(length 5)
+				(name "PB10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -33 0)
+				(length 5)
+				(name "PB11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -36 0)
+				(length 5)
+				(name "PB12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -39 0)
+				(length 5)
+				(name "PB13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -42 0)
+				(length 5)
+				(name "PB14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -45 0)
+				(length 5)
+				(name "PB15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -18 180)
+				(length 5)
+				(name "PC6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -21 180)
+				(length 5)
+				(name "PC7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -24 180)
+				(length 5)
+				(name "PC8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -27 180)
+				(length 5)
+				(name "PC9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -30 180)
+				(length 5)
+				(name "PC10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -33 180)
+				(length 5)
+				(name "PC11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -36 180)
+				(length 5)
+				(name "PC12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -45 180)
+				(length 5)
+				(name "PD2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -15 0)
+				(length 5)
+				(name "PB5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -18 0)
+				(length 5)
+				(name "PB6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -21 0)
+				(length 5)
+				(name "PB7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -24 0)
+				(length 5)
+				(name "PB8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -27 0)
+				(length 5)
+				(name "PB9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 0 180)
+				(length 5)
+				(name "PC0"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -3 180)
+				(length 5)
+				(name "PC1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,172 @@
+(footprint "KH-BNC50-3511"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "BNC 50R")
+	(property "Reference" "REF**"
+		(at 0 -6.459995 0)
+		(layer "F.SilkS")
+		(uuid "d609a4a0-c058-4645-b605-0a933e1e72a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KH-BNC50-3511"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "0b7678fb-a861-4fcc-b7f8-f342f03c65c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5e6fd2c-c21f-4edc-9a20-333132450c61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a672a8c7-13f5-43b4-ad0e-97b24b65f469")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f4fba97-3bcd-489f-afed-5fe8942f0015")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Is_tested" "No"
+		(at 0 8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ce334db3-1f61-4267-9663-d5f4957b62f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8 -4.459995)
+		(end -8 11)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5277f1f2-0b8d-4b39-8510-09b863c06a2f")
+	)
+	(fp_line
+		(start -8 11)
+		(end 8 11)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2cdb7d81-9fc7-4aa5-b637-2c5ba384693c")
+	)
+	(fp_line
+		(start 8 -4.459995)
+		(end -8 -4.459995)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88719a5b-66a3-4e12-a205-5ab727575878")
+	)
+	(fp_line
+		(start 8 11)
+		(end 8 -4.459995)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbb70f1f-a4b7-4d15-9844-2e48c0c83ab3")
+	)
+	(fp_circle
+		(center -7.350013 -4.460071)
+		(end -7.320015 -4.460071)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2dbffdcc-1fa1-425d-897e-240d32380bfb")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.525019)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b1f92391-fdc2-4eeb-935e-cbc0acd54b80")
+	)
+	(pad "2" thru_hole circle
+		(at 2.500127 -2.525019)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "72392588-2cb2-4412-b675-cb26bcbae898")
+	)
+	(pad "3" thru_hole circle
+		(at 5.050038 2.525019)
+		(size 2.600965 2.600965)
+		(drill 2.199644)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1431aee-13ce-4cb7-aaeb-aa32bae30f76")
+	)
+	(pad "4" thru_hole circle
+		(at -5.050038 2.525019)
+		(size 2.600965 2.600965)
+		(drill 2.199644)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "57b265aa-1ca4-47a5-beca-4375c5b806dc")
+	)
+	(model "${RANCUNELIB}/3d_models/Connectors/KH-BNC50-3511.step"
+		(offset
+			(xyz 0 -13.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

@@ -62,7 +62,7 @@
 			)
 		)
 	)
-	(property "Is_tested" "No"
+	(property "Is_tested" "Yes"
 		(at 0 8 0)
 		(layer "F.SilkS")
 		(hide yes)

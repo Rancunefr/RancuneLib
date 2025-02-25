@@ -1,0 +1,182 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "L_1.08mH_SMD"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 3 1.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "1.08mH"
+			(at 3.302 -1.778 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" "Passives:PAS3225V-102J"
+			(at 0 -12.446 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204251615_TAI-TECH-PAS3225V-102J_C2991871.pdf"
+			(at 0.254 -18.542 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.08mH ±5% SMD,2.8x3.6mm Inductors (SMD) ROHS"
+			(at -0.254 -15.494 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "PAS3225V-102J"
+			(at -0.254 -9.906 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#_JLCPCB" "C2991871"
+			(at -0.254 -21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "L_1.08mH_SMD_0_1"
+			(arc
+				(start 1.735 0.0027)
+				(mid 1.1 0.635)
+				(end 0.465 0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.005 0.0027)
+				(mid 2.37 0.635)
+				(end 1.735 0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.275 0.0027)
+				(mid 3.64 0.635)
+				(end 3.005 0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.545 0.0027)
+				(mid 4.91 0.635)
+				(end 4.275 0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_1.08mH_SMD_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 0.4)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 0.4)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+	)
+)

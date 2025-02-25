@@ -1,0 +1,131 @@
+(footprint "PAS3225V-102J"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.000089 -3.651003 0)
+		(layer "F.SilkS")
+		(uuid "356d5333-5473-46a4-8306-0b3d73b56f39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PAS3225V-102J"
+		(at 0.000089 3.651003 0)
+		(layer "F.Fab")
+		(uuid "d5d62b32-622d-495c-833b-fbc19e78cee9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dfac10f-860a-41e3-8af5-6a00e600a950")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dd85a5b-52f5-4c13-8b7c-12956bccd2a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e723ccb2-5a52-49c0-9151-6a31a5a55814")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Is_Tested" "No"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00a64038-a817-437a-983d-10d1bede0d1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.799898 -1.651003)
+		(end 1.800076 -1.651003)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f0cb308-b4fb-44d6-951c-e4e434dd2584")
+	)
+	(fp_line
+		(start -1.799898 1.651003)
+		(end 1.800076 1.651003)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01e7ddc3-2aaa-4d52-a79c-9fc9e1123da9")
+	)
+	(fp_text user "REF**"
+		(at 0.000089 5.651003 0)
+		(layer "F.Fab")
+		(uuid "d9d1a5dd-e974-4912-834c-8136616949df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.550038 0)
+		(size 1.4 2.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "03c4f03e-a850-4cb6-ba49-6038490c6013")
+	)
+	(pad "2" smd rect
+		(at 1.550038 0)
+		(size 1.4 2.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a5422235-a96a-4650-8256-95cf3eb8f648")
+	)
+	(model "${RANCUNELIB}/3d_models/Passives/PAS3225V-102J.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

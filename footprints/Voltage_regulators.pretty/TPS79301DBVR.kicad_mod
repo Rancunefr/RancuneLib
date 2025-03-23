@@ -1,0 +1,180 @@
+(footprint "TPS79301DBVR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR ")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "ecbf1446-b049-4cec-86e3-b05865048b0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS79301DBVR"
+		(at 0 3.550114 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e6542f8-8f88-4359-8df4-76d25fa13777")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0892055-7d38-4e52-8a52-4d48f47bb819")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40ae897e-25af-42e8-b2fa-fef22b55bfbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "is_tested" "no"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9616a74-f428-4af0-a751-6334dd1c4e7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -1.549911)
+		(end 0.900025 -1.549911)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "201fbe8b-24ea-4f43-82c3-5856446eb376")
+	)
+	(fp_line
+		(start -0.9 1.550114)
+		(end 0.900025 1.550114)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fab96765-4335-4843-b9d2-1c17c168d427")
+	)
+	(fp_circle
+		(center 1.397003 1.651003)
+		(end 1.524003 1.651003)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7ad6901b-00f0-4eca-9372-b535c6282864")
+	)
+	(fp_circle
+		(center 1.400025 1.450013)
+		(end 1.430023 1.450013)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d207ec0c-cc54-4601-bf08-66ee546154ef")
+	)
+	(fp_circle
+		(center 1.400051 0.949962)
+		(end 1.500127 0.949962)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "012d56b1-227e-453f-9416-cfbdfc458364")
+	)
+	(fp_text user "REF**"
+		(at 0 5.550114 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eae2696c-beed-44c5-9bb0-15054a619fde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.350013 0.949962)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9c24bb99-c5e5-4868-9929-5e2c92e443f0")
+	)
+	(pad "2" smd rect
+		(at 1.350013 0)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f2efb14-e124-45dd-9efb-a20f977b5339")
+	)
+	(pad "3" smd rect
+		(at 1.350013 -0.949962)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "deba470d-5ff9-406f-9f2a-f60911fb75fd")
+	)
+	(pad "4" smd rect
+		(at -1.350013 -0.949962)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3349d807-d51b-4d06-a93b-0e982dccf19f")
+	)
+	(pad "5" smd rect
+		(at -1.350013 0)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "71b38a90-d879-4995-988f-883d63f93ac0")
+	)
+	(pad "6" smd rect
+		(at -1.350013 0.949962)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8a0bdf82-406c-4f3b-9c0c-1fb246b54e8a")
+	)
+	(embedded_fonts no)
+	(model "${RANCUNELIB}/3d_models/Voltage_regulators/TPS79301DBVR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

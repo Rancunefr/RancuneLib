@@ -74,15 +74,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "ILCC48_847AC_OSI"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "AR0130CSSM00SPCA0-DRBR_0_1"
 			(pin no_connect line
 				(at 0 0 0)
@@ -365,78 +356,6 @@
 					)
 				)
 				(number "17"
-					(effects
-						(font
-							(size 1.25 1.25)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -54 0)
-				(length 3)
-				(name "RESERVED"
-					(effects
-						(font
-							(size 1.25 1.25)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.25 1.25)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 0 -57 0)
-				(length 3)
-				(name "DGND"
-					(effects
-						(font
-							(size 1.25 1.25)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.25 1.25)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 0 -60 0)
-				(length 3)
-				(name "DGND"
-					(effects
-						(font
-							(size 1.25 1.25)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.25 1.25)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 0 -63 0)
-				(length 3)
-				(name "DGND"
-					(effects
-						(font
-							(size 1.25 1.25)
-						)
-					)
-				)
-				(number "30"
 					(effects
 						(font
 							(size 1.25 1.25)
@@ -912,7 +831,92 @@
 					)
 				)
 			)
-			(pin power_out line
+		)
+		(symbol "AR0130CSSM00SPCA0-DRBR_1_1"
+			(rectangle
+				(start 3 10)
+				(end 39 -65)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 -54 0)
+				(length 3)
+				(name "RESERVED"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -57 0)
+				(length 3)
+				(name "DGND"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -60 0)
+				(length 3)
+				(name "DGND"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -63 0)
+				(length 3)
+				(name "DGND"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 42 -60 180)
 				(length 3)
 				(name "AGND"
@@ -930,7 +934,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 42 -63 180)
 				(length 3)
 				(name "AGND"
@@ -946,19 +950,6 @@
 							(size 1.25 1.25)
 						)
 					)
-				)
-			)
-		)
-		(symbol "AR0130CSSM00SPCA0-DRBR_1_1"
-			(rectangle
-				(start 3 10)
-				(end 39 -65)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)

@@ -466,7 +466,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -3 0)
 				(length 1)
 				(name "EN"
@@ -520,7 +520,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 15 -6 180)
 				(length 1)
 				(name "FB"
@@ -538,7 +538,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 15 -9 180)
 				(length 1)
 				(name "BYPASS"

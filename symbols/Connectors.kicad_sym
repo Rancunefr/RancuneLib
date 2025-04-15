@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "FPC_30"
-			(at 9 -89 0)
+			(at 9 -89.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 0 0)
 				(length 3)
 				(name "1"
@@ -91,7 +91,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -3 0)
 				(length 3)
 				(name "2"
@@ -109,7 +109,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -6 0)
 				(length 3)
 				(name "3"
@@ -127,7 +127,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -9 0)
 				(length 3)
 				(name "4"
@@ -145,7 +145,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -12 0)
 				(length 3)
 				(name "5"
@@ -163,7 +163,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -15 0)
 				(length 3)
 				(name "6"
@@ -181,7 +181,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -18 0)
 				(length 3)
 				(name "7"
@@ -199,7 +199,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -21 0)
 				(length 3)
 				(name "8"
@@ -217,7 +217,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -24 0)
 				(length 3)
 				(name "9"
@@ -235,7 +235,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -27 0)
 				(length 3)
 				(name "10"
@@ -253,7 +253,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -30 0)
 				(length 3)
 				(name "11"
@@ -271,7 +271,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -33 0)
 				(length 3)
 				(name "12"
@@ -289,7 +289,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -36 0)
 				(length 3)
 				(name "13"
@@ -307,7 +307,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -39 0)
 				(length 3)
 				(name "14"
@@ -325,7 +325,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -42 0)
 				(length 3)
 				(name "15"
@@ -343,7 +343,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -45 0)
 				(length 3)
 				(name "16"
@@ -361,7 +361,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -48 0)
 				(length 3)
 				(name "17"
@@ -379,7 +379,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -51 0)
 				(length 3)
 				(name "18"
@@ -397,7 +397,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -54 0)
 				(length 3)
 				(name "19"
@@ -415,7 +415,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -57 0)
 				(length 3)
 				(name "20"
@@ -433,7 +433,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -60 0)
 				(length 3)
 				(name "21"
@@ -451,7 +451,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -63 0)
 				(length 3)
 				(name "22"
@@ -469,7 +469,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -66 0)
 				(length 3)
 				(name "23"
@@ -487,7 +487,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -69 0)
 				(length 3)
 				(name "24"
@@ -505,7 +505,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -72 0)
 				(length 3)
 				(name "25"
@@ -523,7 +523,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -75 0)
 				(length 3)
 				(name "26"
@@ -541,7 +541,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -78 0)
 				(length 3)
 				(name "27"
@@ -559,7 +559,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -81 0)
 				(length 3)
 				(name "28"
@@ -577,7 +577,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -84 0)
 				(length 3)
 				(name "29"
@@ -595,7 +595,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -87 0)
 				(length 3)
 				(name "30"
@@ -626,7 +626,7 @@
 					(type outline)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 17 -84 180)
 				(length 3)
 				(name "31"
@@ -636,7 +636,7 @@
 						)
 					)
 				)
-				(number "41"
+				(number "31"
 					(effects
 						(font
 							(size 1.25 1.25)
@@ -644,7 +644,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 17 -87 180)
 				(length 3)
 				(name "32"
@@ -654,7 +654,7 @@
 						)
 					)
 				)
-				(number "42"
+				(number "32"
 					(effects
 						(font
 							(size 1.25 1.25)

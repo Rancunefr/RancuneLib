@@ -199,5 +199,16 @@
 		(layer "F.SilkS")
 		(uuid "3092a3a3-478d-4162-b62d-72046059be8c")
 	)
+	(fp_circle
+		(center 0 0)
+		(end 7.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d5b17ebb-a703-4e90-806e-d90ff6b58edb")
+	)
 	(embedded_fonts no)
 )

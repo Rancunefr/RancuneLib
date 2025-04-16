@@ -199,5 +199,16 @@
 		(layer "F.Mask")
 		(uuid "00833158-69b5-4d7d-880d-015d9a2ac1d8")
 	)
+	(fp_circle
+		(center 0 0)
+		(end 10 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2962037e-0522-4caf-84a9-8d08451070a6")
+	)
 	(embedded_fonts no)
 )

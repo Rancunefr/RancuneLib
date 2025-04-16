@@ -54,7 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part#_JLCPCB" "C7128"
+		(property "LCSC Part #" "C7128"
 			(at 7 21 0)
 			(do_not_autoplace)
 			(effects

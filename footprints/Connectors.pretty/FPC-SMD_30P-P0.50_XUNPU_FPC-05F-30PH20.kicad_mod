@@ -51,7 +51,7 @@
 			)
 		)
 	)
-	(property "Part#_JLCPCB" "C2856808"
+	(property "LCSC Part #" "C2856808"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

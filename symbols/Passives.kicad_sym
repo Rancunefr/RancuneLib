@@ -72,7 +72,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part#_JLCPCB" "C2991871"
+		(property "LCSC Part #" "C2991871"
 			(at -0.254 -21.336 0)
 			(effects
 				(font

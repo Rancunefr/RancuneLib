@@ -56,7 +56,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part#_JLCPCB" ""
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -780,14 +780,14 @@
 			(pin output line
 				(at 42 -39 180)
 				(length 3)
-				(name "LINE_VALID"
+				(name "FLASH"
 					(effects
 						(font
 							(size 1.25 1.25)
 						)
 					)
 				)
-				(number "29"
+				(number "26"
 					(effects
 						(font
 							(size 1.25 1.25)
@@ -816,14 +816,14 @@
 			(pin output line
 				(at 42 -45 180)
 				(length 3)
-				(name "FLASH"
+				(name "LINE_VALID"
 					(effects
 						(font
 							(size 1.25 1.25)
 						)
 					)
 				)
-				(number "26"
+				(number "29"
 					(effects
 						(font
 							(size 1.25 1.25)

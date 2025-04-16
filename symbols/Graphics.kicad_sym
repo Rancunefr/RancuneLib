@@ -24,7 +24,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Graphics:Rancune_20mm_mask"
+		(property "Footprint" "Graphics:Rancune_10mm"
 			(at 0 -6.5 0)
 			(effects
 				(font
@@ -51,7 +51,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Graphics:Rancune_"
+		(property "ki_fp_filters" "Graphics:Rancune_*"
 			(at 0 0 0)
 			(effects
 				(font

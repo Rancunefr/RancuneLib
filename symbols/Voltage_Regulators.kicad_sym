@@ -303,14 +303,14 @@
 				(name "K"
 					(effects
 						(font
-							(size 1.25 1.25)
+							(size 0 0)
 						)
 					)
 				)
-				(number "1"
+				(number "K"
 					(effects
 						(font
-							(size 1.25 1.25)
+							(size 0 0)
 						)
 					)
 				)
@@ -321,14 +321,14 @@
 				(name "A"
 					(effects
 						(font
-							(size 1.25 1.25)
+							(size 0 0)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.25 1.25)
+							(size 0 0)
 						)
 					)
 				)
@@ -336,17 +336,17 @@
 			(pin passive line
 				(at 3 -3 180)
 				(length 2.54)
-				(name "K"
+				(name "Ref"
 					(effects
 						(font
-							(size 1.25 1.25)
+							(size 0 0)
 						)
 					)
 				)
-				(number "1"
+				(number "Ref"
 					(effects
 						(font
-							(size 1.25 1.25)
+							(size 0 0)
 						)
 					)
 				)

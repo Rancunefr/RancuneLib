@@ -192,7 +192,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART#" "TL431"
+		(property "Part#" "TL431"
 			(at 4 -6 0)
 			(do_not_autoplace)
 			(effects
@@ -206,6 +206,15 @@
 			(effects
 				(font
 					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

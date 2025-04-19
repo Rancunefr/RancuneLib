@@ -2921,7 +2921,7 @@
 			)
 		)
 		(symbol "SI3404-A-GMR_1_0"
-			(pin unspecified line
+			(pin input line
 				(at 0 0 0)
 				(length 3)
 				(name "ISNS"
@@ -2939,7 +2939,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 0 -3 0)
 				(length 3)
 				(name "HSO"
@@ -2957,7 +2957,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -11 0)
 				(length 3)
 				(name "FBL"
@@ -2975,7 +2975,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 0 -14 0)
 				(length 3)
 				(name "VSS"
@@ -2993,7 +2993,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -17 0)
 				(length 3)
 				(name "RCL"
@@ -3011,7 +3011,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 6 12 270)
 				(length 3)
 				(name "RDET"
@@ -3029,7 +3029,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 11 -22 90)
 				(length 3)
 				(name "VNEG_PAD"
@@ -3047,7 +3047,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12 12 270)
 				(length 3)
 				(name "RFREQ"
@@ -3065,7 +3065,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 15 -22 90)
 				(length 3)
 				(name "NC"
@@ -3083,7 +3083,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 18 12 270)
 				(length 3)
 				(name "VPOS"
@@ -3101,7 +3101,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 19 -22 90)
 				(length 3)
 				(name "NC"
@@ -3119,7 +3119,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 23 -22 90)
 				(length 3)
 				(name "NC"
@@ -3137,7 +3137,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 24 12 270)
 				(length 3)
 				(name "FBH"
@@ -3155,7 +3155,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 27 -22 90)
 				(length 3)
 				(name "NC"
@@ -3173,7 +3173,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 31 12 270)
 				(length 3)
 				(name "SWO"
@@ -3191,7 +3191,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 31 -22 90)
 				(length 3)
 				(name "NC"
@@ -3209,7 +3209,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 35 -22 90)
 				(length 3)
 				(name "NC"
@@ -3227,7 +3227,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 37 12 270)
 				(length 3)
 				(name "VT15"
@@ -3245,7 +3245,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 39 -22 90)
 				(length 3)
 				(name "NC"
@@ -3263,7 +3263,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 45 3 180)
 				(length 3)
 				(name "VDD"
@@ -3281,7 +3281,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 45 -10 180)
 				(length 3)
 				(name "EROUT"

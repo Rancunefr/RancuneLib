@@ -1,9 +1,9 @@
 (footprint "KH-BNC50-3511"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(tags "BNC 50R")
+	(descr "BNC 50 Ohms")
 	(property "Reference" "REF**"
 		(at 0 -6.459995 0)
 		(layer "F.SilkS")
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a5e6fd2c-c21f-4edc-9a20-333132450c61")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -122,7 +110,7 @@
 			(width 0.059995)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2dbffdcc-1fa1-425d-897e-240d32380bfb")
 	)
@@ -158,6 +146,7 @@
 		(remove_unused_layers no)
 		(uuid "57b265aa-1ca4-47a5-beca-4375c5b806dc")
 	)
+	(embedded_fonts no)
 	(model "${RANCUNELIB}/3d_models/Connectors/KH-BNC50-3511.step"
 		(offset
 			(xyz 0 -13.25 0)

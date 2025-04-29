@@ -216,7 +216,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "X"
+		(property "Reference" "Y"
 			(at 7.5 4 0)
 			(effects
 				(font
@@ -224,8 +224,8 @@
 				)
 			)
 		)
-		(property "Value" "NX2016SA-25MHZ-STD-CZS-2"
-			(at 7.5 -7 0)
+		(property "Value" "25MHZ"
+			(at 7.5 -6.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,7 +282,7 @@
 		(symbol "NX2016SA-25MHZ-STD-CZS-2_0_1"
 			(rectangle
 				(start 2.5 3)
-				(end 12.58 -5.58)
+				(end 12.5 -5)
 				(stroke
 					(width 0)
 					(type default)
@@ -293,7 +293,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5 -3) (xy 5 -3) (xy 5 -0.5) (xy 6.23 -0.5)
+					(xy 6.25 0) (xy 2.5 0)
 				)
 				(stroke
 					(width 0)
@@ -303,20 +303,9 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 3.69 -4.31)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
-					(xy 6.23 -2.278) (xy 6.23 1.278)
+					(xy 6.25 -1.75) (xy 6.25 1.75)
 				)
 				(stroke
 					(width 0)
@@ -327,8 +316,8 @@
 				)
 			)
 			(rectangle
-				(start 6.992 1.278)
-				(end 8.008 -2.278)
+				(start 6.992 1.778)
+				(end 8.008 -1.778)
 				(stroke
 					(width 0)
 					(type default)
@@ -339,7 +328,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.77 -2.278) (xy 8.77 1.278)
+					(xy 8.75 -1.75) (xy 8.75 1.75)
 				)
 				(stroke
 					(width 0)
@@ -351,7 +340,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.58 2.04) (xy 10.04 2.04) (xy 10.04 -0.5) (xy 8.77 -0.5)
+					(xy 12.5 0) (xy 8.75 0)
 				)
 				(stroke
 					(width 0)
@@ -363,6 +352,24 @@
 			)
 			(pin input line
 				(at 0 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -3 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -380,30 +387,12 @@
 				)
 			)
 			(pin input line
-				(at 0 -3 0)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at 15 0 180)
 				(length 2.54)
 				(name "3"
 					(effects
 						(font
-							(size 1 1)
+							(size 0 0)
 						)
 					)
 				)

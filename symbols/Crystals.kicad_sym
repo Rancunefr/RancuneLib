@@ -30,8 +30,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 8 0 0)
+		(property "Footprint" "Crystals:ABS25-32.768KHZ-T"
+			(at 2.5 -13.5 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -57,7 +57,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part#" "ABS25-32.768KHZ"
+		(property "Part#" "ABS25-32.768KHZ-T"
 			(at 3 -9.5 0)
 			(effects
 				(font
@@ -71,6 +71,15 @@
 			(effects
 				(font
 					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C179637"
+			(at 2.75 -11.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

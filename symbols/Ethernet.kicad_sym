@@ -2912,7 +2912,7 @@
 			)
 		)
 		(property "LCSC Part #" "C461934"
-			(at 0 0 0)
+			(at 25 -38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

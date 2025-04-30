@@ -62,7 +62,7 @@
 			)
 		)
 		(property "Part #" "W9825G6KH-6"
-			(at 0 0 0)
+			(at 15 -98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

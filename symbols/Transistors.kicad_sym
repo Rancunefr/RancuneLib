@@ -1,0 +1,316 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "PSMN5R6-60YLX"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 6 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Transistors:SOT-669_L4.9-W4.0-P1.27-LS6.0-BR"
+			(at 3 -16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-channel MOSFET 60 V, 5.6 mΩ logic level"
+			(at 3 -12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C553311"
+			(at 3 -14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PSMN5R6-60YLX_0_1"
+			(polyline
+				(pts
+					(xy 1.4 1.2) (xy 1.4 -1.2)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8 -0.9) (xy 3.9 -0.9) (xy 3.9 0.9) (xy 1.8 0.9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.9 0) (xy 2.3 0.2) (xy 2.3 -0.2) (xy 1.9 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.6 0.1)
+				(radius 2.2023)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 0.9)
+				(radius 0.1414)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3 -0.9) (xy 3 0) (xy 1.8 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3 -0.9)
+				(radius 0.1414)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.4 0.4) (xy 3.6 0.2) (xy 4.2 0.2) (xy 4.4 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 4 -2.5) (xy 3 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PSMN5R6-60YLX_1_1"
+			(polyline
+				(pts
+					(xy 1.8 1.2) (xy 1.8 0.6)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8 0.3) (xy 1.8 -0.3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8 -0.6) (xy 1.8 -1.2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.9 0.1) (xy 3.7 -0.2) (xy 4.1 -0.2) (xy 3.9 0.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1.4)
+				(name "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3 3 270)
+				(length 2.1)
+				(name "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3 -3 90)
+				(length 3)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 4 -3 90)
+				(length 0.5)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5 -3 90)
+				(length 0.5)
+				(name "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

@@ -4756,8 +4756,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at -30.16 -40.92 0)
+		(property "Footprint" "Microcontrollers:STM32L476RGT6"
+			(at 13 16.5 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -4776,8 +4776,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 -3 0)
+		(property "Description" "LQFP-64"
+			(at 13 14 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -4800,6 +4800,15 @@
 			(effects
 				(font
 					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C74797"
+			(at 13.5 12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

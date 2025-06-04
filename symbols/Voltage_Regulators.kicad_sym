@@ -19185,7 +19185,7 @@
 			)
 		)
 	)
-	(symbol "TPS7B6933"
+	(symbol "TPS7B6933DBVR"
 		(pin_numbers
 			(hide yes)
 		)
@@ -19212,8 +19212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Voltage_Regulators:TPS7B6933DBVR"
+			(at 6 -17 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -19231,7 +19231,7 @@
 			)
 		)
 		(property "Description" "LDO 3.3V - Input 4 to 40V / Output 150mA"
-			(at 6 -9 0)
+			(at 6 -14.5 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -19239,8 +19239,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part#" "TPS7B6933"
-			(at 6 -6 0)
+		(property "Part#" "TPS7B6933DBVR"
+			(at 6 -9 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -19257,10 +19257,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "TPS7B6933_1_1"
+		(property "LCSC Part #" "C527569"
+			(at 6 -12.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS7B6933DBVR_1_1"
 			(rectangle
 				(start 1 2)
-				(end 11 -5)
+				(end 11 -7.5)
 				(stroke
 					(width 0)
 					(type default)
@@ -19279,7 +19288,43 @@
 						)
 					)
 				)
-				(number "Vin"
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -3 0)
+				(length 1)
+				(name "NC"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 1)
+				(name "Gnd"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.25 1.25)
@@ -19297,7 +19342,7 @@
 						)
 					)
 				)
-				(number "Vout"
+				(number "5"
 					(effects
 						(font
 							(size 1.25 1.25)
@@ -19306,7 +19351,7 @@
 				)
 			)
 			(pin passive line
-				(at 12 -3 180)
+				(at 12 -6 180)
 				(length 1)
 				(name "Gnd"
 					(effects
@@ -19315,7 +19360,7 @@
 						)
 					)
 				)
-				(number "Gnd"
+				(number "4"
 					(effects
 						(font
 							(size 1.25 1.25)

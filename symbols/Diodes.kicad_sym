@@ -184,7 +184,7 @@
 			)
 		)
 		(property "Footprint" "Diodes:USBLC6-4"
-			(at 0 0 0)
+			(at 13.5 -19 0)
 			(effects
 				(font
 					(size 1.25 1.25)

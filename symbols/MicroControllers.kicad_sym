@@ -4793,6 +4793,7 @@
 					(size 1.25 1.25)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Comments" ""

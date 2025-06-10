@@ -2767,13 +2767,13 @@
 	)
 	(model "kicad-embed://SW-SMD_4P-L4.5-W4.5-P3.00-LS6.8.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

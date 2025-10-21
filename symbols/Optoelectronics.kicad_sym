@@ -5936,13 +5936,14 @@
 		)
 		(property "Value" "SLR1801DBA2BD"
 			(at 7.8 -1.6 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprint:LED-SEG-TH_10P-L56.0-W38.0-P2.54"
+		(property "Footprint" "Optoelectronics:SLR1801DBA2BD"
 			(at 9 -24 0)
 			(effects
 				(font

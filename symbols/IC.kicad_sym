@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://sn74alvc164245.pdf"
-			(at 93 4 0)
+			(at 3.048 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)

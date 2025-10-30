@@ -2119,12 +2119,488 @@
 			)
 		)
 	)
+	(symbol "fpc_18"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 3 3 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "fpc_18"
+			(at 9 -55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connectors:FPC-SMD_18P-P0.50_FPC-05F-18PH20"
+			(at 9 -64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20 -7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur FPC 18 Positions"
+			(at 9 -57.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "FPC-05F-18PH20"
+			(at 9 -60 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2856802"
+			(at 9 -62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connectors:FPC-SMD_18P-*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "fpc_18_0_1"
+			(rectangle
+				(start 3 2)
+				(end 14 -53)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3)
+				(name "1"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 3)
+				(name "2"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3)
+				(name "3"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 3)
+				(name "4"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 3)
+				(name "5"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 3)
+				(name "6"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 3)
+				(name "7"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -21 0)
+				(length 3)
+				(name "8"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -24 0)
+				(length 3)
+				(name "9"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27 0)
+				(length 3)
+				(name "10"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 3)
+				(name "11"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33 0)
+				(length 3)
+				(name "12"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -36 0)
+				(length 3)
+				(name "13"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -39 0)
+				(length 3)
+				(name "14"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42 0)
+				(length 3)
+				(name "15"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 3)
+				(name "16"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -48 0)
+				(length 3)
+				(name "17"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -51 0)
+				(length 3)
+				(name "18"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.3 1.3)
+						)
+					)
+				)
+			)
+		)
+		(symbol "fpc_18_1_1"
+			(circle
+				(center 6 0)
+				(radius 0.4)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "FPC - 18 pos."
+				(at 12 -8 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin passive line
+				(at 17 -48 180)
+				(length 3)
+				(name "19"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17 -51 180)
+				(length 3)
+				(name "20"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "fpc_30"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
 			(at 3 2 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,14 +2610,16 @@
 		)
 		(property "Value" "fpc_30"
 			(at 9 -89.5 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connectors:FPC-SMD_30P-P0.50_XUNPU_FPC-05F-30PH20"
-			(at 47 -4 0)
+			(at 8 -94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,14 +3211,22 @@
 		)
 		(symbol "fpc_30_1_1"
 			(circle
-				(center 5.73 0.1201)
-				(radius 0.381)
+				(center 6 0)
+				(radius 0.4)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(text "FPC - 30 pos."
+				(at 12 -9 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(pin passive line

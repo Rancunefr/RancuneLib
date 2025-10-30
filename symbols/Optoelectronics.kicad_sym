@@ -6550,24 +6550,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 21 0 270)
-				(length 3)
-				(name "COM"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 21 -12 90)
 				(length 9)
@@ -6699,7 +6681,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 18 0 270)
 				(length 3)
 				(name "COM"
@@ -6710,6 +6692,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21 0 270)
+				(length 3)
+				(name "COM"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1 1)

@@ -1,0 +1,2795 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "AD9361BBCZ"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -2 -1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD9361BBCZ"
+			(at 30 17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprint:CSPBGA-144_L10.0-W10.0-R12-C12-P0.80-BL"
+			(at 30 15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -14 29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C515884"
+			(at 30 19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C515884"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AD9361BBCZ_1_1"
+			(rectangle
+				(start 0 0)
+				(end 116 -27.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at 3 3 270)
+				(length 3)
+				(name "VDDA1P1_TX_VCO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 6 3 270)
+				(length 3)
+				(name "VDD_GPO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 6 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 9 3 270)
+				(length 3)
+				(name "VDDA1P3_TX_LO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 9 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12 2.92 270)
+				(length 3)
+				(name "VDDA1P3_TX_VCO_LDO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15 3 270)
+				(length 3)
+				(name "VDDA1P1_RX_VCO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 2.92 270)
+				(length 3)
+				(name "VDDA1P3_RX_RF"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21 2.92 270)
+				(length 3)
+				(name "VDDA1P3_RX_TX"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 24 3 270)
+				(length 3)
+				(name "VDD_INTERFACE"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 24 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27 2.92 270)
+				(length 3)
+				(name "VDDA1P3_RX_LO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 30 2.92 270)
+				(length 3)
+				(name "VDDA1P3_TX_LO_BUFFER"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 30 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 30 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 30 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 33 2.92 270)
+				(length 3)
+				(name "VDDA1P3_RX_VCO_LDO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 33 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 36 2.92 270)
+				(length 3)
+				(name "VDDD1P3_DIG"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 36 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 39 2.92 270)
+				(length 3)
+				(name "VDDA1P3__RX_SYNTH"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 39 -30 90)
+				(length 3)
+				(name "VSSD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 42 2.92 270)
+				(length 3)
+				(name "VDDA1P3_TX_SYNTH"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 42 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 45 2.92 270)
+				(length 3)
+				(name "VDDA1P3_BB"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 45 -30 90)
+				(length 3)
+				(name "VSSD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 48 -30 90)
+				(length 3)
+				(name "VSSD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 51 -30 90)
+				(length 3)
+				(name "VSSD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 54 -30 90)
+				(length 3)
+				(name "VSSD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 57 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 63 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 66 -30 90)
+				(length 3)
+				(name "VSSD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 69 -30 90)
+				(length 3)
+				(name "VSSD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 72 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 75 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 78 -30 90)
+				(length 3)
+				(name "VSSD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 84 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 87 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 90 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 93 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 96 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 99 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 102 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 108 3 270)
+				(length 3)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 108 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 111 3 270)
+				(length 3)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 111 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 114 -30 90)
+				(length 3)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AD9361BBCZ_2_1"
+			(pin unspecified line
+				(at 105 -17.84 0)
+				(length 5.08)
+				(name "TX_MON2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -22 0)
+				(length 5.08)
+				(name "TX_EXT_LO_IN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -43.24 0)
+				(length 5.08)
+				(name "AUXDAC1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -45.78 0)
+				(length 5.08)
+				(name "GPO_3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -48.32 0)
+				(length 5.08)
+				(name "GPO_2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -50.86 0)
+				(length 5.08)
+				(name "GPO_1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -53.4 0)
+				(length 5.08)
+				(name "GPO_0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -63.56 0)
+				(length 5.08)
+				(name "TX_VCO_LDO_OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -73.72 0)
+				(length 5.08)
+				(name "AUXDAC2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -76.26 0)
+				(length 5.08)
+				(name "TEST/ENABLE"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -78.8 0)
+				(length 5.08)
+				(name "CTRL_IN0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -81.34 0)
+				(length 5.08)
+				(name "CTRL_IN1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -106.74 0)
+				(length 5.08)
+				(name "CTRL_OUT0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -109.28 0)
+				(length 5.08)
+				(name "CTRL_IN3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -111.82 0)
+				(length 5.08)
+				(name "CTRL_IN2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -137.22 0)
+				(length 5.08)
+				(name "CTRL_OUT1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -139.76 0)
+				(length 5.08)
+				(name "CTRL_OUT2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -142.3 0)
+				(length 5.08)
+				(name "CTRL_OUT3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -145 0)
+				(length 5.08)
+				(name "CTRL_OUT4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -148 0)
+				(length 5.08)
+				(name "CTRL_OUT5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 105 -151 0)
+				(length 5.08)
+				(name "CTRL_OUT6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 106 -165 0)
+				(length 5.08)
+				(name "FB_CLK_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 108 -175.46 180)
+				(length 5.08)
+				(name "XTALP"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 108 -178 180)
+				(length 5.08)
+				(name "XTALN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -14.14 180)
+				(length 5.08)
+				(name "RX_EXT__LO_IN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -16.68 180)
+				(length 5.08)
+				(name "RX_VCO_LDO_OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -21.76 180)
+				(length 5.08)
+				(name "CTRL_OUT7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -24.3 180)
+				(length 5.08)
+				(name "EN_AGC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -26.84 180)
+				(length 5.08)
+				(name "ENABLE"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -29.38 180)
+				(length 5.08)
+				(name "RX_FRAME_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -31.92 180)
+				(length 5.08)
+				(name "RX_FRAME_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -34.46 180)
+				(length 5.08)
+				(name "TX_FRAME_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -37 180)
+				(length 5.08)
+				(name "FB_CLK_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -39.54 180)
+				(length 5.08)
+				(name "DATA_CLK_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "G11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -49.3 180)
+				(length 5.08)
+				(name "TXNRX"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -51.84 180)
+				(length 5.08)
+				(name "SYNC_IN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -62 180)
+				(length 5.08)
+				(name "TX_FRAME_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -67.08 180)
+				(length 5.08)
+				(name "DATA__CLK_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -79.78 180)
+				(length 5.08)
+				(name "SPI_DI"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -82.32 180)
+				(length 5.08)
+				(name "SPI_CLK"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -84.86 180)
+				(length 5.08)
+				(name "CLK_OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -112.8 180)
+				(length 5.08)
+				(name "RESETB"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -115.34 180)
+				(length 5.08)
+				(name "SPI_ENB"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -140.74 180)
+				(length 5.08)
+				(name "RBIAS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -143.28 180)
+				(length 5.08)
+				(name "AUXADC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -145.82 180)
+				(length 5.08)
+				(name "SPI_DO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 163 -173.76 180)
+				(length 5.08)
+				(name "TX_MON1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AD9361BBCZ_3_1"
+			(pin unspecified line
+				(at -31 18 0)
+				(length 5.08)
+				(name "RX2B_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -31 16 0)
+				(length 5.08)
+				(name "RX2B_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30 28 0)
+				(length 5.08)
+				(name "RX2C_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30 26 0)
+				(length 5.08)
+				(name "RX2C_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21 56.54 0)
+				(length 5.08)
+				(name "RX2A_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21 54 0)
+				(length 5.08)
+				(name "RX2A_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21 51.62 0)
+				(length 5.08)
+				(name "TX2A_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21 49.08 0)
+				(length 5.08)
+				(name "TX2A_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21 46.54 0)
+				(length 5.08)
+				(name "TX2B_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21 44 0)
+				(length 5.08)
+				(name "TX2B_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17 28 180)
+				(length 5.08)
+				(name "RX1C_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17 26 180)
+				(length 5.08)
+				(name "RX1C_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 33 58 180)
+				(length 5.08)
+				(name "RX1B_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 33.02 55.88 180)
+				(length 5.08)
+				(name "RX1B_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 58 38.78 180)
+				(length 5.08)
+				(name "RX1A_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 58 36.24 180)
+				(length 5.08)
+				(name "RX1A_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 58 23.54 180)
+				(length 5.08)
+				(name "TX1A_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 58 21 180)
+				(length 5.08)
+				(name "TX1A_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 58 18.46 180)
+				(length 5.08)
+				(name "TX1B_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 58 15.92 180)
+				(length 5.08)
+				(name "TX1B_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AD9361BBCZ_5_1"
+			(rectangle
+				(start 0 0)
+				(end 15 -39)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at 18 -3 180)
+				(length 3)
+				(name "P0_D11/TX_D5_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -6 180)
+				(length 3)
+				(name "P0_D10/TX_D5_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "F8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -9 180)
+				(length 3)
+				(name "P0_D9/TX_D4_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -12 180)
+				(length 3)
+				(name "P0_D8/TX_D4_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -15 180)
+				(length 3)
+				(name "P0_D7/TX_D3_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -18 180)
+				(length 3)
+				(name "P0_D6/TX_D3_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -21 180)
+				(length 3)
+				(name "P0_D5/TX_D2_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -24 180)
+				(length 3)
+				(name "P0_D4/TX_D2_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -27 180)
+				(length 3)
+				(name "P0_D3/TX_D1_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -30 180)
+				(length 3)
+				(name "P0_D2/TX_D1_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -33 180)
+				(length 3)
+				(name "P0_D1/TX_D0_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "D11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -36 180)
+				(length 3)
+				(name "P0_D0/TX_D0_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "E12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AD9361BBCZ_6_1"
+			(rectangle
+				(start 0 0)
+				(end 15 -39)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at 18 -3 180)
+				(length 3)
+				(name "P1_D11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(alternate "RX_D5_P" unspecified line)
+			)
+			(pin unspecified line
+				(at 18 -6 180)
+				(length 3)
+				(name "P1_D10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(alternate "RX_D5_N" unspecified line)
+			)
+			(pin unspecified line
+				(at 18 -9 180)
+				(length 3)
+				(name "P1_D9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(alternate "RX_D4_P" unspecified line)
+			)
+			(pin unspecified line
+				(at 18 -12 180)
+				(length 3)
+				(name "P1_D8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(alternate "RX_D4_N" unspecified line)
+			)
+			(pin unspecified line
+				(at 18 -15 180)
+				(length 3)
+				(name "P1_D7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(alternate "RX_D3_P" unspecified line)
+			)
+			(pin unspecified line
+				(at 18 -18 180)
+				(length 3)
+				(name "P1_D6/RX_D3_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -21 180)
+				(length 3)
+				(name "P1_D5/RX_D2_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -24 180)
+				(length 3)
+				(name "P1_D4/RX_D2_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -27 180)
+				(length 3)
+				(name "P1_D3/RX_D1_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -30 180)
+				(length 3)
+				(name "P1_D2/RX_D1_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -33 180)
+				(length 3)
+				(name "P1_D1/RX_D0_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -36 180)
+				(length 3)
+				(name "P1_D0/RX_D0_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

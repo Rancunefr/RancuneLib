@@ -3,8 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR footprint")
-	(tags "TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR footprint C527569")
+	(descr "TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR")
 	(property "Reference" "REF**"
 		(at 0 -3.608992 0)
 		(layer "F.SilkS")

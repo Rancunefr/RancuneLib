@@ -16,7 +16,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AD9361BBCZ"
+		(property "Value" ""
 			(at 30 17 0)
 			(effects
 				(font
@@ -45,8 +45,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "47MHz~6GHz 8dBm SPI transceiver"
+			(at 31 13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,8 +54,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C515884"
+		(property "LCSC Part#" "C515884"
 			(at 30 19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "AD9361BBCZ"
+			(at 31 17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69,15 +78,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "ki_keywords" "C515884"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(symbol "AD9361BBCZ_1_1"
@@ -1159,7 +1159,7 @@
 				)
 			)
 			(text "AD9361\n"
-				(at 1 -4 0)
+				(at 28 -64 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1711,7 +1711,7 @@
 		(symbol "AD9361BBCZ_3_1"
 			(rectangle
 				(start 0 0)
-				(end 9 -35)
+				(end 9 -33)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1721,7 +1721,7 @@
 				)
 			)
 			(text "AD9361\n"
-				(at 1.2 -19.5 900)
+				(at 4.5 -31 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1803,135 +1803,6 @@
 			(pin unspecified line
 				(at 12 -18 180)
 				(length 3)
-				(name "RX1A_P"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "M1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12 -21 180)
-				(length 3)
-				(name "RX1A_N"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "M2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12 -24 180)
-				(length 3)
-				(name "RX1B_P"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "H1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12 -27 180)
-				(length 3)
-				(name "RX1B_N"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "J1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12 -30 180)
-				(length 3)
-				(name "RX1C_P"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "K1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12 -33 180)
-				(length 3)
-				(name "RX1C_N"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "L1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-		(symbol "AD9361BBCZ_4_1"
-			(rectangle
-				(start 0 0)
-				(end 9 -35)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(text "AD9361\n"
-				(at 1.2 -19.5 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12 -6 180)
-				(length 3)
 				(name "TX2A_N"
 					(effects
 						(font
@@ -1948,7 +1819,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12 -9 180)
+				(at 12 -21 180)
 				(length 3)
 				(name "TX2A_P"
 					(effects
@@ -1966,7 +1837,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12 -12 180)
+				(at 12 -24 180)
 				(length 3)
 				(name "TX2B_N"
 					(effects
@@ -1984,7 +1855,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12 -15 180)
+				(at 12 -27 180)
 				(length 3)
 				(name "TX2B_P"
 					(effects
@@ -2001,8 +1872,137 @@
 					)
 				)
 			)
+		)
+		(symbol "AD9361BBCZ_4_1"
+			(rectangle
+				(start 0 0)
+				(end 9 -45)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "AD9361\n"
+				(at 4.5 -43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12 -6 180)
+				(length 3)
+				(name "RX1A_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12 -9 180)
+				(length 3)
+				(name "RX1A_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "M2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12 -12 180)
+				(length 3)
+				(name "RX1B_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "H1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12 -15 180)
+				(length 3)
+				(name "RX1B_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "J1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
 			(pin unspecified line
 				(at 12 -18 180)
+				(length 3)
+				(name "RX1C_P"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "K1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12 -21 180)
+				(length 3)
+				(name "RX1C_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12 -24 180)
 				(length 3)
 				(name "RX2A_P"
 					(effects
@@ -2020,7 +2020,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12 -21 180)
+				(at 12 -27 180)
 				(length 3)
 				(name "RX2A_N"
 					(effects
@@ -2038,7 +2038,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12 -24 180)
+				(at 12 -30 180)
 				(length 3)
 				(name "RX2B_P"
 					(effects
@@ -2056,7 +2056,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12 -27 180)
+				(at 12 -33 180)
 				(length 3)
 				(name "RX2B_N"
 					(effects
@@ -2074,7 +2074,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12 -30 180)
+				(at 12 -36 180)
 				(length 3)
 				(name "RX2C_P"
 					(effects
@@ -2092,7 +2092,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12 -33 180)
+				(at 12 -39 180)
 				(length 3)
 				(name "RX2C_N"
 					(effects
@@ -2113,7 +2113,7 @@
 		(symbol "AD9361BBCZ_5_1"
 			(rectangle
 				(start 0 0)
-				(end 12 -50)
+				(end 12 -54)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2434,7 +2434,7 @@
 		(symbol "AD9361BBCZ_6_1"
 			(rectangle
 				(start 0 0)
-				(end 12 -50)
+				(end 12 -54)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2755,7 +2755,7 @@
 		(symbol "AD9361BBCZ_7_1"
 			(rectangle
 				(start 0 0)
-				(end 18 -40)
+				(end 18 -44)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2873,6 +2873,735 @@
 					)
 				)
 				(number "J6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TCM1-63AX+"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 2 3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF:TCM1-63AX+"
+			(at 11 -28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Balun 9.42dB 8° 10MHz~6GHz 2.5dB 50Ω:50Ω"
+			(at 11 -30 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C494678"
+			(at 11 -26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "TCM1-63AX+"
+			(at 14 3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C494678"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TCM1-63AX+_0_1"
+			(polyline
+				(pts
+					(xy 2.7 -6.8) (xy 2.7 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.7 -6.8) (xy 4.1 -6.8)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.1 0) (xy 1.9 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.1 -3) (xy 1.9 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.435 -0.0027)
+				(mid 4.8 -0.635)
+				(end 4.165 -0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.165 -2.9973)
+				(mid 4.8 -2.365)
+				(end 5.435 -2.9973)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.435 -6.8027)
+				(mid 4.8 -7.435)
+				(end 4.165 -6.8027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.705 -0.0027)
+				(mid 6.07 -0.635)
+				(end 5.435 -0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.435 -2.9973)
+				(mid 6.07 -2.365)
+				(end 6.705 -2.9973)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.705 -6.8027)
+				(mid 6.07 -7.435)
+				(end 5.435 -6.8027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 7.975 -0.0027)
+				(mid 7.34 -0.635)
+				(end 6.705 -0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.705 -2.9973)
+				(mid 7.34 -2.365)
+				(end 7.975 -2.9973)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 7.975 -6.8027)
+				(mid 7.34 -7.435)
+				(end 6.705 -6.8027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 9.245 -0.0027)
+				(mid 8.61 -0.635)
+				(end 7.975 -0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 7.975 -2.9973)
+				(mid 8.61 -2.365)
+				(end 9.245 -2.9973)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 9.245 -6.8027)
+				(mid 8.61 -7.435)
+				(end 7.975 -6.8027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.5 0) (xy 9.3 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.5 -3) (xy 9.3 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.5 -6.8) (xy 9.3 -6.8)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 12.835 -0.0027)
+				(mid 12.2 -0.635)
+				(end 11.565 -0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 11.565 -2.9973)
+				(mid 12.2 -2.365)
+				(end 12.835 -2.9973)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 12.835 -6.8027)
+				(mid 12.2 -7.435)
+				(end 11.565 -6.8027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 14.105 -0.0027)
+				(mid 13.47 -0.635)
+				(end 12.835 -0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 12.835 -2.9973)
+				(mid 13.47 -2.365)
+				(end 14.105 -2.9973)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 14.105 -6.8027)
+				(mid 13.47 -7.435)
+				(end 12.835 -6.8027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 15.375 -0.0027)
+				(mid 14.74 -0.635)
+				(end 14.105 -0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 14.105 -2.9973)
+				(mid 14.74 -2.365)
+				(end 15.375 -2.9973)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 15.375 -6.8027)
+				(mid 14.74 -7.435)
+				(end 14.105 -6.8027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 16.645 -0.0027)
+				(mid 16.01 -0.635)
+				(end 15.375 -0.0027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 15.375 -2.9973)
+				(mid 16.01 -2.365)
+				(end 16.645 -2.9973)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 16.645 -6.8027)
+				(mid 16.01 -7.435)
+				(end 15.375 -6.8027)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16.7 -6.8) (xy 18.1 -6.8)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.1 -2.5) (xy 18.1 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 18.1 -2.5)
+				(mid 18.55 -2.95)
+				(end 18.1 -3.4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.1 -6.8) (xy 18.1 -3.4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.5 0) (xy 16.7 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.5 -3) (xy 16.7 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 9 -15 90)
+				(length 2.54)
+				(name "NOT_USED"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12 -15 90)
+				(length 2.54)
+				(name "NOT_USED"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21 0 180)
+				(length 2.54)
+				(name "SECONDARY-DOT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21 -3 180)
+				(length 2.54)
+				(name "SECONDARY"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TCM1-63AX+_1_1"
+			(rectangle
+				(start 0.6 1.7)
+				(end 20.4 -14.5)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 2.7 -3)
+				(radius 0.1414)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 3.5 1)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9 -13) (xy 9 -12) (xy 12 -12) (xy 12 -13)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 17.3 0.8)
+				(radius 0.2828)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 18.1 0)
+				(radius 0.1414)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "PRI"
+				(at 2.7 -9.5 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "NC"
+				(at 10.5 -11 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "SEC"
+				(at 18.1 -9.5 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 2.54)
+				(name "PRIMARY_DOT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -3 0)
+				(length 2.54)
+				(name "PRIMARY"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1 1)

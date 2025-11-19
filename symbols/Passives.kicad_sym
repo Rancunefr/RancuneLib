@@ -29,7 +29,7 @@
 			)
 		)
 		(property "Footprint" "Generics:C_0201"
-			(at 0 12.954 0)
+			(at 3 10 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,7 +47,7 @@
 			)
 		)
 		(property "Description" "100nF 6.3V X5R ±10% MLCC 0201 - Murata GRM033R60J104KE19D"
-			(at 0 10.414 0)
+			(at 3 8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "Tension" "6.3V"
-			(at 0 17.526 0)
+			(at 3 14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +65,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 0 15.24 0)
+			(at 3 12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,7 +74,7 @@
 			)
 		)
 		(property "Part#" "GRM033R60J104KE19D"
-			(at 0.254 8.128 0)
+			(at 3 18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,7 +83,7 @@
 			)
 		)
 		(property "LCSC Part#" "C76928"
-			(at 0 20.066 0)
+			(at 3 16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,7 +184,7 @@
 			)
 		)
 		(property "Footprint" "Generics:C_0201"
-			(at 0 12.954 0)
+			(at 3 13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +202,7 @@
 			)
 		)
 		(property "Description" "10nF 10V X7R ±10% MLCC 0201 - Murata GRM033R71A103KA01D"
-			(at 0 10.414 0)
+			(at 3 10 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +211,7 @@
 			)
 		)
 		(property "Tension" "10V"
-			(at 0 17.526 0)
+			(at 3 18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,7 +220,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 0 15.24 0)
+			(at 3 16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,7 +229,7 @@
 			)
 		)
 		(property "Part#" "GRM033R71A103KA01D"
-			(at 0.254 8.128 0)
+			(at 3 7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -238,7 +238,7 @@
 			)
 		)
 		(property "LCSC Part#" "C76941"
-			(at 0 20.066 0)
+			(at 3 21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -339,7 +339,7 @@
 			)
 		)
 		(property "Footprint" "Generics:C_0603"
-			(at 0 12.954 0)
+			(at 3 12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -357,7 +357,7 @@
 			)
 		)
 		(property "Description" "10uF 6.3V X5R ±20% MLCC 0603 - Murata GRM188R60J106ME47D"
-			(at 0 10.414 0)
+			(at 4 10 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -366,7 +366,7 @@
 			)
 		)
 		(property "Tension" "6.3V"
-			(at 0 17.526 0)
+			(at 3 16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -375,7 +375,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 0 15.24 0)
+			(at 3 14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,7 +384,7 @@
 			)
 		)
 		(property "Part#" "GRM188R60J106ME47D"
-			(at 0.254 8.128 0)
+			(at 3 7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,7 +393,7 @@
 			)
 		)
 		(property "LCSC Part#" "C77041"
-			(at 0 20.066 0)
+			(at 3 18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -467,6 +467,471 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "C_18pF_50V_C0G"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 2.794 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18pF"
+			(at 3.048 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Generics:C_0201"
+			(at 3 13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "18pF 50V C0G ±2% MLCC 0201 - Murata GRM0335C1H180GA01D"
+			(at 3 10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tension" "50V"
+			(at 3 18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 3 16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "GRM0335C1H180GA01D"
+			(at 3 7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C161409"
+			(at 3 21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_18pF_50V_C0G_0_1"
+			(polyline
+				(pts
+					(xy 2.5 -2.2) (xy 2.5 2.2)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.5 -2.2) (xy 3.5 2.2)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_18pF_50V_C0G_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.5)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 2.5)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "C_1nF_25V"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 2.794 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF"
+			(at 3.048 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Generics:C_0201"
+			(at 3 12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 nF 25V X7R ±10% MLCC 0201 - Murata GRM033R71E102KA01D"
+			(at 4 10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tension" "25V"
+			(at 3 16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 3 14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "GRM033R71E102KA01D"
+			(at 3 7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C76943"
+			(at 3 18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_1nF_25V_0_1"
+			(polyline
+				(pts
+					(xy 2.5 -2.2) (xy 2.5 2.2)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.5 -2.2) (xy 3.5 2.2)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1nF_25V_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.5)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 2.5)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "C_1uF_6.3V"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 2.794 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 3.048 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Generics:C_0402"
+			(at 3 12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF 6.3V X5R ±10% MLCC 0402 - Murata GRM155R60J105KE19D"
+			(at 4 10 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tension" "6.3V"
+			(at 3 16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 3 14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "GRM155R60J105KE19D"
+			(at 3 7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C15684"
+			(at 3 18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_1uF_6.3V_0_1"
+			(polyline
+				(pts
+					(xy 2.5 -2.2) (xy 2.5 2.2)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.5 -2.2) (xy 3.5 2.2)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1uF_6.3V_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.5)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 2.5)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "C_47uF_6.3V"
 		(pin_numbers
 			(hide yes)
@@ -494,7 +959,7 @@
 			)
 		)
 		(property "Footprint" "Generics:C_0805"
-			(at 0 12.954 0)
+			(at 3 11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -512,7 +977,7 @@
 			)
 		)
 		(property "Description" "47uF 6.3V X5R ±20% MLCC 0805 - Taiyo Yuden JMK212BJ476MG-T"
-			(at 0 10.414 0)
+			(at 3 9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -521,7 +986,7 @@
 			)
 		)
 		(property "Tension" "10V"
-			(at 0 17.526 0)
+			(at 2 15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -530,7 +995,7 @@
 			)
 		)
 		(property "Manufacturer" "Taiyo Yuden"
-			(at 0 15.24 0)
+			(at 2 13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -539,7 +1004,7 @@
 			)
 		)
 		(property "Part#" "JMK212BJ476MG-T"
-			(at 0.254 8.128 0)
+			(at 3 7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,7 +1013,7 @@
 			)
 		)
 		(property "LCSC Part#" "C87159"
-			(at 0 20.066 0)
+			(at 2 17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

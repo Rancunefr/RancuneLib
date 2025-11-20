@@ -467,6 +467,24 @@
 			(pin unspecified line
 				(at 0 0 0)
 				(length 3)
+				(name "VIN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -3 0)
+				(length 3)
 				(name "EN"
 					(effects
 						(font
@@ -483,7 +501,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -3 0)
+				(at 0 -6 0)
 				(length 3)
 				(name "SYNC"
 					(effects
@@ -501,7 +519,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -6 0)
+				(at 0 -9 0)
 				(length 3)
 				(name "TRK"
 					(effects
@@ -519,7 +537,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -9 0)
+				(at 0 -12 0)
 				(length 3)
 				(name "RT"
 					(effects
@@ -529,24 +547,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 9 9 270)
-				(length 3)
-				(name "PGOOD"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "16"
 					(effects
 						(font
 							(size 1 1)
@@ -573,24 +573,6 @@
 				)
 			)
 			(pin unspecified line
-				(at 12 9 270)
-				(length 3)
-				(name "VIN"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 12 -18 90)
 				(length 3)
 				(name "PGND"
@@ -601,6 +583,24 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13 9 270)
+				(length 3)
+				(name "PGOOD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "16"
 					(effects
 						(font
 							(size 1 1)

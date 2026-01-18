@@ -231,6 +231,657 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "FH34SRJ-18S-0.5SH(50)"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J?"
+			(at 6 3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connectors:FH34SRJ-18S-0.5SH(50)"
+			(at 0 15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hirose FPC connector / 18pins 0.5mm pitch"
+			(at 0 9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C3169386"
+			(at 0 6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "FH34SRJ-18S-0.5SH(50)"
+			(at 0 12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FH34SRJ-18S-0.5SH(50)_0_1"
+			(circle
+				(center 4 -3)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -6)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -9)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -12)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -15)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -18)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -21)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -24)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -27)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -30)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -33)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -36)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -39)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -42)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -45)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -48)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4 -51)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FH34SRJ-18S-0.5SH(50)_1_1"
+			(rectangle
+				(start 3 1)
+				(end 9 -52)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 4 0)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "FPC - 0.5mm pitch"
+				(at 7 -9 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 3.5)
+				(name "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3 0)
+				(length 3.5)
+				(name "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6 0)
+				(length 3.5)
+				(name "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 3.5)
+				(name "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12 0)
+				(length 3.5)
+				(name "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 3.5)
+				(name "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 3.5)
+				(name "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -21 0)
+				(length 3.5)
+				(name "8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -24 0)
+				(length 3.5)
+				(name "9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27 0)
+				(length 3.5)
+				(name "10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 3.5)
+				(name "11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33 0)
+				(length 3.5)
+				(name "12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -36 0)
+				(length 3.5)
+				(name "13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -39 0)
+				(length 3.5)
+				(name "14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42 0)
+				(length 3.5)
+				(name "15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 3.5)
+				(name "16"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -48 0)
+				(length 3.5)
+				(name "17"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -51 0)
+				(length 3.5)
+				(name "18"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 -48 180)
+				(length 3)
+				(name "19"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 -51 180)
+				(length 3)
+				(name "20"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "FPC-05F-18PH20"
 		(pin_names
 			(hide yes)

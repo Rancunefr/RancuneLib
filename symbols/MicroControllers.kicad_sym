@@ -1968,7 +1968,7 @@
 			)
 		)
 		(property "Value" "STM32H563ZIT6"
-			(at 8 16 0)
+			(at 38 16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1977,7 +1977,7 @@
 			)
 		)
 		(property "Footprint" "Microcontrollers:LQFP-144_STM-M"
-			(at 6 19 0)
+			(at 36 19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +1987,7 @@
 			)
 		)
 		(property "Datasheet" "STM32H563ZIT6"
-			(at 6 24 0)
+			(at 36 24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +1997,7 @@
 			)
 		)
 		(property "Description" "LQFP 144 ( Non-SMPS )"
-			(at 11 22 0)
+			(at 41 22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4690,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 81 -30 180)
 				(length 3)
 				(name "VCAP"
@@ -4708,7 +4708,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 81 -34 180)
 				(length 3)
 				(name "VCAP"

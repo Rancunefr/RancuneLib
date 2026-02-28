@@ -467,6 +467,175 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "C_12uF_200V"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C?"
+			(at 2.7 3.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12uF"
+			(at -0.1 -3.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Passives:C487495"
+			(at 0.1 8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12uF 100V 20% Aluminium - Ymin VKMD1252D120MV"
+			(at 0 6.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C487495"
+			(at 0.1 11.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "VKMD1252D120MV"
+			(at 0 9.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "200V"
+			(at 5.5 -3.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_12uF_200V_0_1"
+			(polyline
+				(pts
+					(xy 4.9 -0.4) (xy 4.9 -1.416)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.408 -0.908) (xy 4.392 -0.908)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_12uF_200V_1_1"
+			(arc
+				(start 1.8 2.1)
+				(mid 2.6145 0)
+				(end 1.8 -2.1)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.5 -2.2) (xy 3.5 2.2)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.7)
+				(name "N"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 2.4)
+				(name "P"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+				(number "P"
+					(effects
+						(font
+							(size 1.25 1.25)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "C_18pF_50V_C0G"
 		(pin_numbers
 			(hide yes)

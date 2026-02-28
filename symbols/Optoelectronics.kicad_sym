@@ -263,7 +263,7 @@
 						)
 					)
 				)
-				(number "A"
+				(number "1"
 					(effects
 						(font
 							(size 1.25 1.25)
@@ -281,7 +281,7 @@
 						)
 					)
 				)
-				(number "K"
+				(number "2"
 					(effects
 						(font
 							(size 1.25 1.25)
@@ -299,7 +299,7 @@
 						)
 					)
 				)
-				(number "C"
+				(number "4"
 					(effects
 						(font
 							(size 1.25 1.25)
@@ -317,7 +317,7 @@
 						)
 					)
 				)
-				(number "E"
+				(number "3"
 					(effects
 						(font
 							(size 1.25 1.25)

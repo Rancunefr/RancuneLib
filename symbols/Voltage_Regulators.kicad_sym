@@ -1275,7 +1275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Voltage_Regulators:AMS1117-3.3"
+		(property "Footprint" "Voltage_regulators:AMS1117-3.3"
 			(at 7 -14 0)
 			(effects
 				(font
@@ -1406,7 +1406,7 @@
 						)
 					)
 				)
-				(number "Gnd"
+				(number "1"
 					(effects
 						(font
 							(size 1.25 1.25)
@@ -2983,7 +2983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Voltage_Regulators:TL431"
+		(property "Footprint" "Voltage_regulators:TL431"
 			(at 0 -16 0)
 			(effects
 				(font
@@ -3152,7 +3152,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "A"
 					(effects
 						(font
 							(size 0 0)

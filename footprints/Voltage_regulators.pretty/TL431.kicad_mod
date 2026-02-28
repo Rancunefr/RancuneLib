@@ -157,23 +157,23 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at 1 0.949962)
+	(pad "A" smd rect
+		(at -1 0)
 		(size 1.250013 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "cfc49394-a0da-4ec4-b54e-f36fea8456d3")
+		(uuid "e4cc8aae-2fd1-4e0c-b903-61dde5f486f6")
 	)
-	(pad "2" smd rect
+	(pad "K" smd rect
 		(at 1 -0.949962)
 		(size 1.250013 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7935bd31-7be3-4773-9a06-cefc69e73c49")
 	)
-	(pad "3" smd rect
-		(at -1 0)
+	(pad "Ref" smd rect
+		(at 1 0.949962)
 		(size 1.250013 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "e4cc8aae-2fd1-4e0c-b903-61dde5f486f6")
+		(uuid "cfc49394-a0da-4ec4-b54e-f36fea8456d3")
 	)
 	(embedded_fonts no)
 	(embedded_files

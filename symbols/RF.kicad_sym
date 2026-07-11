@@ -3690,7 +3690,7 @@
 		(symbol "TRF3722IRGZR_0_1"
 			(rectangle
 				(start -21 21)
-				(end 24 -24)
+				(end 24 -42)
 				(stroke
 					(width 0)
 					(type default)
@@ -3700,133 +3700,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -24 15 0)
-				(length 3)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at -24 12 0)
-				(length 3)
-				(name "LO_OUTN"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -24 9 0)
-				(length 3)
-				(name "LO_OUTP"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -24 6 0)
-				(length 3)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -24 3 0)
-				(length 3)
-				(name "CP_OUT"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "41"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -24 0 0)
-				(length 3)
-				(name "VCC_PLL"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -24 -3 0)
-				(length 3)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -24 -6 0)
 				(length 3)
 				(name "REFIN"
 					(effects
@@ -3844,259 +3718,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -24 -9 0)
-				(length 3)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "45"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -24 -12 0)
-				(length 3)
-				(name "LE"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "46"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -24 -15 0)
-				(length 3)
-				(name "DATA"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -24 -18 0)
-				(length 3)
-				(name "CLK"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "48"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -24 -21 0)
-				(length 3)
-				(name "EP"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "49"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -15 -27 90)
-				(length 3)
-				(name "PD"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12 24 270)
-				(length 3)
-				(name "VCC_LO2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12 -27 90)
-				(length 3)
-				(name "RDBK"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -9 24 270)
-				(length 3)
-				(name "VTUNE"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -9 -27 90)
-				(length 3)
-				(name "LD"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6 24 270)
-				(length 3)
-				(name "VCC_VCO"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6 -27 90)
-				(length 3)
-				(name "VCC_DIG"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -3 24 270)
-				(length 3)
-				(name "VCC_TK"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -3 -27 90)
-				(length 3)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 24 270)
+				(at -24 9 0)
 				(length 3)
 				(name "EXT_VCO"
 					(effects
@@ -4114,97 +3736,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -27 90)
-				(length 3)
-				(name "VCC_LO1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 3 24 270)
-				(length 3)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 3 -27 90)
-				(length 3)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 6 24 270)
-				(length 3)
-				(name "BBI_N"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 6 -27 90)
-				(length 3)
-				(name "BBQ_N"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12 24 270)
+				(at -24 3 0)
 				(length 3)
 				(name "BBI_P"
 					(effects
@@ -4222,7 +3754,25 @@
 				)
 			)
 			(pin unspecified line
-				(at 12 -27 90)
+				(at -24 0 0)
+				(length 3)
+				(name "BBI_N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -24 -6 0)
 				(length 3)
 				(name "BBQ_P"
 					(effects
@@ -4240,16 +3790,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 15 24 270)
+				(at -24 -9 0)
 				(length 3)
-				(name "GND"
+				(name "BBQ_N"
 					(effects
 						(font
 							(size 1 1)
 						)
 					)
 				)
-				(number "26"
+				(number "8"
 					(effects
 						(font
 							(size 1 1)
@@ -4258,7 +3808,169 @@
 				)
 			)
 			(pin unspecified line
-				(at 15 -27 90)
+				(at -24 -15 0)
+				(length 3)
+				(name "LE"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -24 -18 0)
+				(length 3)
+				(name "DATA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -24 -21 0)
+				(length 3)
+				(name "CLK"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -24 -24 0)
+				(length 3)
+				(name "RDBK"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -24 -27 0)
+				(length 3)
+				(name "PD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -24 -36 0)
+				(length 3)
+				(name "EP"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -18 -45 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15 -45 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12 24 270)
+				(length 3)
+				(name "VCC_VCO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12 -45 90)
 				(length 3)
 				(name "GND"
 					(effects
@@ -4276,16 +3988,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 27 9 180)
+				(at -9 24 270)
 				(length 3)
-				(name "VCC_MOD4"
+				(name "VCC_LO1"
 					(effects
 						(font
 							(size 1 1)
 						)
 					)
 				)
-				(number "23"
+				(number "6"
 					(effects
 						(font
 							(size 1 1)
@@ -4294,133 +4006,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 27 6 180)
-				(length 3)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27 3 180)
-				(length 3)
-				(name "VCC_MOD3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27 0 180)
-				(length 3)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27 -3 180)
-				(length 3)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27 -6 180)
-				(length 3)
-				(name "RFOUT"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27 -9 180)
-				(length 3)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27 -12 180)
-				(length 3)
-				(name "VCC_MOD2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27 -15 180)
+				(at -9 -45 90)
 				(length 3)
 				(name "GND"
 					(effects
@@ -4438,7 +4024,43 @@
 				)
 			)
 			(pin unspecified line
-				(at 27 -18 180)
+				(at -6 24 270)
+				(length 3)
+				(name "VCC_LO2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -6 -45 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3 24 270)
 				(length 3)
 				(name "VCC_MOD1"
 					(effects
@@ -4455,10 +4077,388 @@
 					)
 				)
 			)
+			(pin unspecified line
+				(at -3 -45 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 24 270)
+				(length 3)
+				(name "VCC_MOD2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -45 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3 24 270)
+				(length 3)
+				(name "VCC_MOD3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3 -45 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 6 24 270)
+				(length 3)
+				(name "VCC_MOD4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 6 -45 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 9 24 270)
+				(length 3)
+				(name "VCC_DIG"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 9 -45 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12 24 270)
+				(length 3)
+				(name "VCC_PLL"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12 -45 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15 -45 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 24 270)
+				(length 3)
+				(name "VCC_TK"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 18 -45 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21 -45 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27 12 180)
+				(length 3)
+				(name "RFOUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27 9 180)
+				(length 3)
+				(name "LO_OUTP"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27 6 180)
+				(length 3)
+				(name "LO_OUTN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27 0 180)
+				(length 3)
+				(name "CP_OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27 -6 180)
+				(length 3)
+				(name "VTUNE"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27 -12 180)
+				(length 3)
+				(name "LD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
 		)
 		(symbol "TRF3722IRGZR_1_1"
 			(pin no_connect line
-				(at -15 24 270)
+				(at 27 -18 180)
 				(length 3)
 				(name "NC"
 					(effects
@@ -4467,97 +4467,7 @@
 						)
 					)
 				)
-				(number "36"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 9 24 270)
-				(length 3)
-				(name "NC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 9 -27 90)
-				(length 3)
-				(name "NC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 18 24 270)
-				(length 3)
-				(name "NC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 18 -27 90)
-				(length 3)
-				(name "NC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 27 12 180)
-				(length 3)
-				(name "NC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "24"
+				(number "13"
 					(effects
 						(font
 							(size 1 1)
@@ -4575,7 +4485,97 @@
 						)
 					)
 				)
-				(number "13"
+				(number "36"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27 -24 180)
+				(length 3)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27 -27 180)
+				(length 3)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27 -30 180)
+				(length 3)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27 -33 180)
+				(length 3)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27 -36 180)
+				(length 3)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "24"
 					(effects
 						(font
 							(size 1 1)

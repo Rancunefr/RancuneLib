@@ -80,7 +80,7 @@
 		(symbol "BWSMA-KWE-Z001_0_1"
 			(polyline
 				(pts
-					(xy 1.5 0) (xy 0 0)
+					(xy 0 0) (xy 2 0)
 				)
 				(stroke
 					(width 0.254)
@@ -91,9 +91,9 @@
 				)
 			)
 			(arc
-				(start 1.5 0)
-				(mid 2 0.5)
-				(end 2.5 0)
+				(start 2 0)
+				(mid 3 1)
+				(end 4 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -104,7 +104,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.5 0) (xy 3.9 0)
+					(xy 4 0) (xy 5 0)
 				)
 				(stroke
 					(width 0.254)
@@ -115,8 +115,8 @@
 				)
 			)
 			(circle
-				(center 4.5 0)
-				(radius 0.6)
+				(center 6 0)
+				(radius 0.9)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -126,39 +126,21 @@
 				)
 			)
 			(circle
-				(center 4.5 0)
-				(radius 2.5)
+				(center 6 0)
+				(radius 3)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 3 -5 90)
-				(length 3)
-				(name "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
 				)
 			)
 		)
 		(symbol "BWSMA-KWE-Z001_1_1"
 			(pin unspecified line
 				(at 0 0 0)
-				(length 1)
+				(length 2)
 				(name "5"
 					(effects
 						(font
@@ -175,8 +157,27 @@
 				)
 			)
 			(pin unspecified line
-				(at 4 -5 90)
-				(length 2.5)
+				(at 6 -4 90)
+				(length 1)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 6 -4 90)
+				(length 0)
+				(hide yes)
 				(name "2"
 					(effects
 						(font
@@ -193,8 +194,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 5 -5 90)
-				(length 2.5)
+				(at 6 -4 90)
+				(length 0)
+				(hide yes)
 				(name "3"
 					(effects
 						(font
@@ -211,8 +213,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 6 -5 90)
-				(length 3)
+				(at 6 -4 90)
+				(length 0)
+				(hide yes)
 				(name "4"
 					(effects
 						(font
